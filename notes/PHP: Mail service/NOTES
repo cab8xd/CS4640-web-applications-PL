@@ -1,0 +1,23 @@
+* Make use of existing API or library to make use of existing information.
+* Instructions: automate sending email with PHPMailer. 
+    * can make application even more convenient or efficient.
+    * another example program that is similar. 
+    * use one email to send from account (not set up :()
+        example: fake email - webpl.uva@gmail.com, webPL4640S21 (SMPTP)
+            - do not use for project. 
+    PHP keyword: INCLUDE that references a file (does not throw an error if non-existent). 
+        preferred keyword: REQUIRE (throws ^ error)
+
+Activity: http://www.cs.virginia.edu/~up3f/cs4640/inclass/activity-php-mail-service.html
+    Library || Contact Us (easier) 
+
+    mail-handler.php, mail-handler-solution.php
+        * specificially for gmail, lines 28ish will differ depending email type
+        * the rest concerns the specific content of the email. 
+    
+    verification
+        * two step verification instructions on supplement page
+    
+    borrows-book.json and notification-handler.php
+        * re-import all the necessary libraries
+        * want to be able to read JSON data file 

@@ -1,0 +1,22 @@
+Working with databases (NOTE: localhost to get to overview)
+    1. design a database (represent the real world things)
+        - gather data/information - ENTITY (object or thing u want to represent)
+                                  - TABLES (retrieval,classes)
+    2. choose a database server / accounts (place to store data) ex. SQL, Microsoft excess(?)
+    3. write SQL scripts to set up databaase (tables) (DBMS)
+        - security considerations here. 
+        - our focus: writing programs that interact wiht user and database (the connecting layer)
+    4. choose programming language -- driver: interface or API that allows multiple languages to interact 
+        PDO - reccomended version; not a database but rather an abstract and connecting layer. 
+
+        MySQLi - older OB version of PDO
+
+        MySQL - old, only work wiht MySQL. Deprecated from PHP; no legacies
+            bad: written poorly can give unauthorized access (she shows examples)
+-> more information on course site. 
+    5. write considerations 
+        - connection
+        - execute
+        - close connection
+
+in class potd option: 3
